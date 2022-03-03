@@ -68,3 +68,35 @@ or using `kitty --debug-input` to detect keysyms
 | ctrl+=  | font size + |
 | ctrl+-  | font size - |
 | ctrl+0  | font size reset |
+
+## session restore
+
+you can create your session file under `~/.config/kitty`, let's say the filename is `session.conf`
+
+change `startup_session none` to `startup_session session.conf`
+
+create `session.conf` like this:
+
+```ini
+new_tab home
+layout splits
+cd ~
+launch zsh
+focus
+
+new_tab work
+cd ~/work
+launch zsh
+
+new_tab nvim
+cd ~/.config/nvim
+launch zsh
+
+new_tab go
+cd ~/repo/go
+launch zsh
+
+new_tab rust
+cd ~/repo/rust
+launch zsh
+```
