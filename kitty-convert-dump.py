@@ -59,7 +59,7 @@ def convert(session):
                 print(f"cd {tab['windows'][0]['cwd']}")
 
             for w in tab["windows"]:
-                print(f"title {w['title']}")
+                # print(f"title {w['title']}")
                 print(
                     f"launch {env_to_str(w['env'])} {fg_proc_to_str(w['foreground_processes'])}"
                 )
