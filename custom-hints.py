@@ -18,7 +18,7 @@ def mark(text, args, Mark, extra_cli_args, *a):
     # We mark all individual word for potential selection
     for idx, m in enumerate(re.finditer(r'\s?([a-zA-Z0-9_.-]+\.(ini|yml|yaml|vim|toml|conf|lua|go|php|rs|py|js|vue|jsx|html|htm|md|mp3|wav|flac|mp4|mkv|dll|exe|sh|txt|log|gz|tar|rar|7z|zip|mod|sum))\s?', text)):
         start, end = m.span()
-        mark_text = text[start:end].replace('\n', '').replace('\0', '')
+        mark_text = text[start:end].replace('\n', '').replace('\0', '').strip()
         # The empty dictionary below will be available as groupdicts
         # in handle_result() and can contain arbitrary data.
         yield Mark(idx, start, end, mark_text, {})
