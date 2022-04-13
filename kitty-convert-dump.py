@@ -60,6 +60,9 @@ def convert(session):
 
             for w in tab["windows"]:
                 # print(f"title {w['title']}")
+                # skip dump "/usr/bin/kitty +hold command"
+                if w['foreground_processes'][0]['cmdline'][0] == "/usr/bin/kitty":
+                    continue
                 print(
                     f"launch {env_to_str(w['env'])} {fg_proc_to_str(w['foreground_processes'])}"
                 )
