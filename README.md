@@ -100,3 +100,9 @@ new_tab rust
 cd ~/repo/rust
 launch zsh
 ```
+
+## kitty docs
+
+Keyboard shortcuts https://sw.kovidgoyal.net/kitty/conf/#keyboard-shortcuts
+
+The launch command syntax reference https://sw.kovidgoyal.net/kitty/launch/#syntax-reference
