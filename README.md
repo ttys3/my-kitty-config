@@ -20,56 +20,82 @@ or using `kitty --debug-input` to detect keysyms
 
 | key  | description  |
 |---|---|
-| ctrl+shift+r  | reload config  |
-| ctrl+a>r  | reload config  |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>r</kbd>  | reload config  |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>e</kbd>  | reload config  |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>d</kbd>  | debug config  |
+
+### session
+
+| key  | description  |
+|---|---|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>s</kbd>  | save current layout to session file  |
 
 ### tab
 
 | key  | description  |
 |---|---|
-| ctrl+shift+left  | previus tab  |
-| ctrl+shift+right  | next tab  |
-| ctrl+shift+,  | move tab backward  |
-| ctrl+shift+.  | move tab forward |
-| ctrl+a>,  | change tab title |
-| ctrl+a>c  | create new tab |
-| ctrl+a>x  | close window / tab |
+| <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>⭠</kbd>  | previus tab  |
+| <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>⭢</kbd>  | next tab  |
+| <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>,</kbd>  | move tab backward  |
+| <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>.</kbd>  | move tab forward |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>,</kbd>  | change tab title |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>c</kbd>  | create new tab |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>x</kbd>  | close window / tab |
+
+### os window
+
+| key  | description  |
+|---|---|
+| <kbd>ctrl</kbd>+<kbd>q</kbd>  | quit kitty |
+| <kbd>f11</kbd>  | toggle fullscreen |
+
 
 ### window
 
 | key  | description  |
 |---|---|
-| ctrl+a>-  | horizontal split |
-| ctrl+a>\  | vertial split |
-| ctrl+shift+r  | resize window |
-| ctrl+left  | to left window|
-| ctrl+right  | to right window|
-| ctrl+up  | to up window|
-| ctrl+down| to down window|
-| ctrl+a>h  | to left window|
-| ctrl+a>l  | to right window|
-| ctrl+a>k  | to up window|
-| ctrl+a>j| to down window|
-| shift+left  | move current window to left|
-| shift+right  | move current window to right|
-| shift+up  | move current window to up|
-| shift+down  | move current window to down|
-| alt+left  | resize window narrower |
-| alt+right  | resize window wider |
-| alt+up  | resize window taller |
-| alt+down  | resize window shorter |
-| ctrl+home  | resize window reset |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>-</kbd>  | horizontal split |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>\</kbd>  | vertial split |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>x</kbd>  | close window |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>z</kbd>  | zoom (maxmize) window |
+| <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>r</kbd>  | resize window |
+| <kbd>ctrl</kbd>+<kbd>⭠</kbd>  | to left window|
+| <kbd>ctrl</kbd>+<kbd>⭢</kbd>  | to right window|
+| <kbd>ctrl</kbd>+<kbd>⭡</kbd>  | to up window|
+| <kbd>ctrl</kbd>+<kbd>⭣</kbd>| to down window|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>h</kbd>  | to left window|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>l</kbd>  | to right window|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>k</kbd>  | to up window|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>j</kbd>| to down window|
+| <kbd>shift</kbd>+<kbd>⭠</kbd>  | move current window to left|
+| <kbd>shift</kbd>+<kbd>⭢</kbd>  | move current window to right|
+| <kbd>shift</kbd>+<kbd>⭡</kbd>  | move current window to up|
+| <kbd>shift</kbd>+<kbd>⭣</kbd>  | move current window to down|
+| <kbd>alt</kbd>+<kbd>⭠</kbd>  | resize window narrower |
+| <kbd>alt</kbd>+<kbd>⭢</kbd>  | resize window wider |
+| <kbd>alt</kbd>+<kbd>⭡</kbd>  | resize window taller |
+| <kbd>alt</kbd>+<kbd>⭣</kbd>  | resize window shorter |
+| <kbd>ctrl</kbd>+<kbd>home</kbd>  | resize window reset |
 
 
 ### font
 
 | key  | description  |
 |---|---|
-| ctrl+=  | font size + |
-| ctrl+-  | font size - |
-| ctrl+0  | font size reset |
+| <kbd>ctrl</kbd>+<kbd>=</kbd>  | font size + |
+| <kbd>ctrl</kbd>+<kbd>-</kbd>  | font size - |
+| <kbd>ctrl</kbd>+<kbd>0</kbd>  | font size reset |
+
+### misc
+
+| key  | description  |
+|---|---|
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>t</kbd>  | kitten themes |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>ctrl</kbd>+<kbd>a</kbd>  | send real <kbd>ctrl</kbd>+<kbd>a</kbd> (emacs shortcut <kbd>Home</kbd>) |
 
 ## session restore
+
+> if you have used <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>s</kbd> generate the session, you do not need this.
 
 you can create your session file under `~/.config/kitty`, let's say the filename is `session.conf`
 
