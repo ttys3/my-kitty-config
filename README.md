@@ -53,7 +53,7 @@ or using `kitty --debug-input` to detect keysyms
 | key                                           | description                  |
 |-----------------------------------------------|------------------------------|
 | <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>-</kbd>     | horizontal split             |
-| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>\</kbd>     | vertial split                |
+| <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>\\</kbd>     | vertial split                |
 | <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>x</kbd>     | close window                 |
 | <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>z</kbd>     | zoom (maxmize) window        |
 | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>r</kbd> | resize window                |
