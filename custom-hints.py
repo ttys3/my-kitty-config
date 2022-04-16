@@ -21,7 +21,7 @@ RE_URL = (r"(https?://|git@|git://|ssh://|s*ftp://|file:///)"
           "[a-zA-Z0-9?=%/_.:,;~@!#$&()*+-]*")
 
 
-RE_COMMON_FILENAME = r'\s?([a-zA-Z0-9_.-/]*[a-zA-Z0-9_.-]+\.(ini|yml|yaml|vim|toml|conf|lua|go|php|rs|py|js|vue|jsx|html|htm|md|mp3|wav|flac|mp4|mkv|dll|exe|sh|txt|log|gz|tar|rar|7z|zip|mod|sum|iso))\s?'
+RE_COMMON_FILENAME = r'\s?([a-zA-Z0-9_.-/]*[a-zA-Z0-9_.-]+\.(ini|yml|yaml|vim|toml|conf|lua|go|php|rs|py|js|vue|jsx|html|htm|md|mp3|wav|flac|mp4|mkv|dll|exe|sh|txt|log|gz|tar|rar|7z|zip|mod|sum|iso|patch))\s?'
 
 RE_URL_OR_PATH = RE_COMMON_FILENAME + "|" + RE_PATH + "|" + RE_URL
 
