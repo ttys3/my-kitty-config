@@ -63,7 +63,8 @@ def convert(session):
                 # skip dump "/usr/bin/kitty +hold command"
                 if os.path.basename(w['foreground_processes'][0]['cmdline'][0]) == "kitty":
                     continue
-                print(f"launch {env_to_str(w['env'])} {fg_proc_to_str(w['foreground_processes'])}")
+                # print(f"launch {env_to_str(w['env'])} {fg_proc_to_str(w['foreground_processes'])}")
+                print(f"launch {fg_proc_to_str(w['foreground_processes'])}")
                 if w["is_focused"]:
                     print("focus")
 
