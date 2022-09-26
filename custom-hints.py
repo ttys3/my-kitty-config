@@ -8,8 +8,10 @@ ref https://github.com/kovidgoyal/kitty/blob/master/kittens/hints/main.py
 """
 
 import re
-from kitty.utils import set_primary_selection
-from kitty.fast_data_types import  set_clipboard_string
+from kitty.clipboard import (
+        set_primary_selection,
+        set_clipboard_string
+)
 
 RE_PATH = (
     r'(?=[ \t\n]|"|\(|\[|<|\')?'
