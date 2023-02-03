@@ -15,6 +15,13 @@ mainly used under Linux
 git clone https://github.com/ttys3/my-kitty-config.git ~/.config/kitty
 ```
 
+## suggested shell alias
+
+```shell
+alias icat="kitty +kitten icat"
+alias s="kitty +kitten icat"
+```
+
 ## Shortcuts
 
 key name see <https://github.com/xkbcommon/libxkbcommon/blob/master/include/xkbcommon/xkbcommon-keysyms.h>
