@@ -30,6 +30,11 @@ or using `kitty --debug-input` to detect keysyms
 
 ### config
 
+keybindings explain:
+
+<kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>R</kbd> means:
+press `ctrl` + `a` in the same time, release and then, press R (`shift`+`r`)
+
 | key                                       | description   |
 | ----------------------------------------- | ------------- |
 | <kbd>ctrl</kbd>+<kbd>a</kbd>><kbd>R</kbd> | reload config |
