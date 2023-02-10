@@ -150,3 +150,22 @@ launch zsh
 Keyboard shortcuts <https://sw.kovidgoyal.net/kitty/conf/#keyboard-shortcuts>
 
 The launch command syntax reference <https://sw.kovidgoyal.net/kitty/launch/#syntax-reference>
+
+## troubleshooting
+
+the behavior of `listen_on` differs from the behavior of `--listen-on` cli flag.
+
+the cli one is exactly the same.
+
+the config file one will append a random postfix to the socket name, this is strange logic.
+
+start kitty:
+```
+kitty -o allow_remote_control=yes --listen-on unix:/run/user/1000/kitty.sock
+```
+
+on other terminal:
+
+```
+ kitty @ --to unix:/run/user/1000/kitty.sock launch --type=tab --cwd "/tmp" --tab-title "My Tab" --keep-focus bash
+```
