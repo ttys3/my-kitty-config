@@ -19,7 +19,7 @@ git clone https://github.com/ttys3/my-kitty-config.git ~/.config/kitty
 
 ```shell
 alias icat="kitty +kitten icat"
-alias s="kitty +kitten icat"
+alias s="kitty +kitten ssh"
 ```
 
 ## Shortcuts
