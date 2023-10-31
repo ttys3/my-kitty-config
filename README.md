@@ -18,8 +18,9 @@ git clone https://github.com/ttys3/my-kitty-config.git ~/.config/kitty
 ## suggested shell alias
 
 ```shell
-alias icat="kitty +kitten icat"
-alias s="kitty +kitten ssh"
+alias icat="kitten icat"
+alias s="kitten ssh"
+alias d="kitten diff"
 ```
 
 ## Shortcuts
