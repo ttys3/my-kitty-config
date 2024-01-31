@@ -6,7 +6,9 @@ set -eou pipefail
 
 kitty @ ls |  $HOME/.config/kitty/kitty-convert-dump.py > $HOME/.config/kitty/session.conf
 
-kitty @ send-text "#kitty session dumped\x0d"
+echo "kitty session dumped"
+
+echo; read -r -p "Press Enter to exit"; echo ""
 
 
 
