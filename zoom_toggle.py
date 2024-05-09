@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Module documentation.
+zoom toggle
+ref https://sw.kovidgoyal.net/kitty/kittens/custom/#using-kittens-to-script-kitty-without-any-terminal-ui
 """
 
 def main(args):
